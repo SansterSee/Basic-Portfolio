@@ -19,7 +19,7 @@ p   {
 }
 
 .container    {
-    height: 700px;
+    height: 800px;
     width: 960px;
     position: relative;
     top: 100px;
@@ -88,7 +88,7 @@ hr  {
 
     background-color: #ffffff;
     width: 760px;
-    height: 450px;
+    height: 550px;
     position: relative;
     top: 40px;
     border: solid;
@@ -105,6 +105,7 @@ hr  {
     color: #777777;
     margin-left: 20px;
     margin-top: 20px;
+    
 }
 
 
@@ -128,4 +129,23 @@ footer  {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
     
+}
+
+/* Styled submit button. */
+input[type=submit] {
+    background-color: #4aaaa5;
+    padding: 10px;
+    width: 80px;
+    color: #ffffff;
+    border: none;
+ 
+  }
+
+/* Style form fields */
+input[type=text], select {
+    width: 716px;
+    padding: 5px;
+    display: inline-block;
+    margin: 4px 0;
+    box-sizing: border-box;
 }
