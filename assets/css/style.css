@@ -38,6 +38,8 @@ header  {
         border-style: solid;
         border-width: 2px;
         border-color:#cccccc;
+        border-right-style: none;
+        border-left-style: none;
     
 }
 
@@ -93,8 +95,7 @@ hr  {
     border: solid;
     border-color: #dddddd;
     border-width: 1px;
-    overflow: auto;
-    
+    overflow: auto; 
 
 }
 
